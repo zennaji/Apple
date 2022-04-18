@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cairo' ;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 0px 10rem;
+}
+/* navbar styling */
+nav{
+    /* background-color: aqua; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;	
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul a{
+   text-decoration: none;
+   color: white;
+}
+nav ul a:hover{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.562);
+}
+nav img{
+    /* transform: scale(); */
+    width: 3vw;
+    cursor: pointer;
+    
+}
+nav img:hover{
+    transform: scale(1.2);
+    width: 3vw;
+    cursor: pointer;
+}
+/* product-container */
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+ }
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+.product-picture{
+    width: 300px;
+   
+ }
+.description button{
+    width: 6rem;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+.description button:hover{
+    background-color: rgba(255, 255, 255, 0.562);
+}	
+.description p{
+    width: 15vw;
+    line-height: 1.1;
+
+}
+/* ohone colors styling */
+.phone-colors{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    margin-top: 40px;
+}
+.phone-colors img{
+    width: 3vw;
+    cursor: pointer;
+}
+.phone-colors img:hover{
+    transform: scale(1.2);
+    width: 3vw;
+ }
